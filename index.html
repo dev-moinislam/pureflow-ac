@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PureFlow AC Cleaning provides professional, non-invasive air conditioning cleaning to improve airflow, energy efficiency, and indoor air quality.">
+    <title>PureFlow AC Cleaning | Breathe Cleaner Air</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Subtle Airflow Animation Background -->
+    <div class="particles-container" id="particles-container"></div>
+
+    <!-- Floating Mobile Call Button -->
+    <a href="tel:+17123183116" class="floating-call-btn">
+        <i data-lucide="phone"></i>
+    </a>
+
+    <!-- Sticky Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <i data-lucide="wind" class="logo-icon"></i>
+                <span class="logo-text">PureFlow</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#process">How it Works</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+            </nav>
+            <div class="header-actions">
+                <a href="tel:+17123183116" class="btn btn-primary btn-call">
+                    <i data-lucide="phone-call"></i> Call Now
+                </a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#services">Services</a>
+            <a href="#process">How it Works</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="trust-badges-top">
+                        <span class="badge"><i data-lucide="check-circle-2"></i> Owner-Operated</span>
+                        <span class="badge"><i data-lucide="dollar-sign"></i> Transparent Pricing</span>
+                        <span class="badge"><i data-lucide="shield-check"></i> Safe & Non-Invasive</span>
+                    </div>
+                    <h1>Breathe Cleaner Air. <br><span class="highlight">Boost Your AC Performance.</span></h1>
+                    <p class="hero-subheadline">Professional Non-Invasive AC Cleaning That Improves Airflow & Efficiency.</p>
+                    <div class="hero-cta-group">
+                        <a href="#contact" class="btn btn-primary btn-large">Get Free Quote</a>
+                        <a href="tel:+17123183116" class="btn btn-secondary btn-large">Call Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- Problem vs Solution Section -->
+        <section class="problem-solution" id="problem">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Your AC Might Be Working <span class="highlight">Harder Than It Should</span></h2>
+                    <p>Dust buildup, mold, and debris restrict airflow, forcing your system to consume more energy while delivering lower quality air.</p>
+                </div>
+                
+                <div class="ps-grid">
+                    <div class="ps-card problem-card">
+                        <div class="ps-image-wrapper">
+                            <img src="images/dirty_ac_vent.png" alt="Dirty AC Coil Problem" loading="lazy">
+                            <div class="ps-label error">The Problem</div>
+                        </div>
+                        <ul class="ps-list">
+                            <li><i data-lucide="x-circle" class="icon-error"></i> Dirty, clogged coils</li>
+                            <li><i data-lucide="x-circle" class="icon-error"></i> Weak, restricted airflow</li>
+                            <li><i data-lucide="x-circle" class="icon-error"></i> High energy bills</li>
+                            <li><i data-lucide="x-circle" class="icon-error"></i> Dust & allergen buildup</li>
+                        </ul>
+                    </div>
+
+                    <div class="ps-card solution-card">
+                        <div class="ps-image-wrapper">
+                            <img src="images/clean_ac_vent_natural.png" alt="Clean AC Coil Solution" loading="lazy">
+                            <div class="ps-label success">The Solution</div>
+                        </div>
+                        <ul class="ps-list">
+                            <li><i data-lucide="check-circle" class="icon-success"></i> Clean, unblocked airflow</li>
+                            <li><i data-lucide="check-circle" class="icon-success"></i> Improved cooling efficiency</li>
+                            <li><i data-lucide="check-circle" class="icon-success"></i> Lower energy costs</li>
+                            <li><i data-lucide="check-circle" class="icon-success"></i> Healthier indoor air quality</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Before / After Section -->
+        <section class="before-after dark-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>See the <span class="highlight">Airflow Difference</span></h2>
+                    <p>Experience better cooling, lower energy costs, and cleaner air immediately after service.</p>
+                </div>
+                
+                <div class="ba-slider-container">
+                    <!-- Simple visual comparison placeholder since full JS slider is complex, we use an elegant side-by-side or hover split -->
+                    <div class="ba-comparison">
+                        <div class="ba-side ba-before">
+                            <img src="images/dirty_ac_vent.png" alt="Before AC Cleaning">
+                            <span class="ba-tag">Before</span>
+                        </div>
+                        <div class="ba-side ba-after">
+                            <img src="images/clean_ac_vent_natural.png" alt="After AC Cleaning">
+                            <span class="ba-tag">After</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ba-benefits">
+                    <div class="benefit-item">
+                        <i data-lucide="thermometer-snowflake"></i>
+                        <span>Better Cooling</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i data-lucide="piggy-bank"></i>
+                        <span>Lower Energy Cost</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i data-lucide="wind"></i>
+                        <span>Cleaner Air</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section-bg" id="services">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Our Specialized Services</h2>
+                    <p>Premium care for your residential cooling systems.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card glass-panel">
+                        <div class="service-icon-wrapper">
+                            <i data-lucide="sparkles"></i>
+                        </div>
+                        <h3>AC Coil Cleaning</h3>
+                        <p>Safe, non-invasive cleaning methods that protect your delicate fins while removing years of stubborn grime.</p>
+                    </div>
+                    <div class="service-card glass-panel">
+                        <div class="service-icon-wrapper">
+                            <i data-lucide="fan"></i>
+                        </div>
+                        <h3>Airflow Optimization</h3>
+                        <p>Restoring maximum volumetric airflow to ensure your system cools your home faster and more evenly.</p>
+                    </div>
+                    <div class="service-card glass-panel">
+                        <div class="service-icon-wrapper">
+                            <i data-lucide="clipboard-check"></i>
+                        </div>
+                        <h3>Preventative Maintenance</h3>
+                        <p>Regular deep cleaning schedules designed to extend the lifespan of your unit and prevent costly break-downs.</p>
+                    </div>
+                    <div class="service-card glass-panel">
+                        <div class="service-icon-wrapper">
+                            <i data-lucide="home"></i>
+                        </div>
+                        <h3>Residential AC Cleaning</h3>
+                        <p>Comprehensive whole-home ductless and central AC cleaning tailored for family households.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="process" id="process">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Simple Process. <span class="highlight">Powerful Results.</span></h2>
+                    <p>We respect your home and your time. Our proven 3-step approach guarantees satisfaction.</p>
+                </div>
+                
+                <div class="process-steps">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Inspection</h3>
+                        <p>We evaluate your system's current airflow, coil condition, and overall performance.</p>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Safe Cleaning</h3>
+                        <p>Using our specialized non-invasive techniques, we remove debris and buildup safely.</p>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Performance Check</h3>
+                        <p>We verify improved airflow and cooling efficiency before we consider the job done.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section-bg" id="gallery">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Our Work <span class="highlight">Speaks for Itself</span></h2>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="images/midwest_ac_tech.png" alt="AC Cleaning Process" loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery_ac_filter.png" alt="Old vs New AC Filter" loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery_van.png" alt="Work Van on Site" loading="lazy"></div>
+                    <div class="gallery-item"><img src="images/gallery_ac_outdoor.png" alt="AC Compressor Unit" loading="lazy"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="features">
+            <div class="container">
+                <div class="features-content">
+                    <div class="features-text">
+                        <h2>Why Choose PureFlow?</h2>
+                        <ul class="features-list">
+                            <li>
+                                <div class="f-icon"><i data-lucide="user-check"></i></div>
+                                <div>
+                                    <h4>Owner-Operated</h4>
+                                    <p>Personal care and accountability on every single job.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="f-icon"><i data-lucide="shield"></i></div>
+                                <div>
+                                    <h4>Non-Invasive Safe Cleaning</h4>
+                                    <p>We protect your property and unit during the entire process.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="f-icon"><i data-lucide="banknote"></i></div>
+                                <div>
+                                    <h4>Transparent Pricing</h4>
+                                    <p>No hidden fees, no surprises. Just honest, upfront quotes.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="f-icon"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <h4>Local & Reliable</h4>
+                                    <p>We are a community-focused business providing fast, dependable service.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials section-bg" id="reviews">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Real Results. <span class="highlight">Happy Customers.</span></h2>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"The airflow improvement was noticeable immediately. My living room cools down in half the time now. Highly professional and clean process!"</p>
+                        <p class="reviewer">- Sarah M.</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"PureFlow gave me an honest price and delivered exactly what they promised. No upselling, just great service. My AC smells fresh and runs quieter."</p>
+                        <p class="reviewer">- James T.</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">"I appreciated that it's an owner-operated business. They took real care not to make a mess in my home. Very trustworthy and effective."</p>
+                        <p class="reviewer">- Elena R.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strong CTA Section -->
+        <section class="cta-section" id="contact">
+            <div class="container cta-container">
+                <div class="cta-content">
+                    <h2>Ready for Cleaner, <br>Stronger Airflow?</h2>
+                    <p>Book your AC cleaning today and feel the difference.</p>
+                    
+                    <div class="contact-card glass-panel">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" required placeholder="(555) 123-4567">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Type</label>
+                                <select id="service" required>
+                                    <option value="" disabled selected>Select a Service</option>
+                                    <option value="coil">AC Coil Cleaning</option>
+                                    <option value="airflow">Airflow Optimization</option>
+                                    <option value="maintenance">Preventative Maintenance</option>
+                                    <option value="other">Other / Not Sure</option>
+                                </select>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit full-width">Get My Free Quote</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <div class="logo">
+                    <i data-lucide="wind" class="logo-icon"></i>
+                    <span class="logo-text">PureFlow AC Cleaning</span>
+                </div>
+                <p class="tagline">"Cleaner Air Starts Here"</p>
+                <div class="footer-contact">
+                    <a href="tel:+17123183116"><i data-lucide="phone"></i> +1 712-318-3116</a>
+                </div>
+            </div>
+            
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>&copy; 2026 PureFlow AC Cleaning. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons & Custom Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
